@@ -1,0 +1,2 @@
+model_checkpoint_path: "N=9,a=1,sig=0.1"
+all_model_checkpoint_paths: "N=9,a=1,sig=0.1"

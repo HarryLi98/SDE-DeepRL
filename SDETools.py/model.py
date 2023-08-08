@@ -94,16 +94,16 @@ class Model:
 
     def plot_trajectory(self, opt=True):
         self.xbar = np.mean(self.x, 1)
-        fig, ax = plt.subplots(figsize=(15, 5))
+        plt.figure(figsize=(15, 5))
 
-        if opt:
-            ax.plot(self.t, self.x, 'k')
+        plt.plot(self.t, self.x, 'k')
 
         # Average Line
-        ax.plot(self.t, self.xbar, 'green', linewidth=2)
+        if opt:
+            plt.plot(self.t, self.xbar, 'green', linewidth=2)
 
-        ax.set_xlabel('t')
-        ax.set_ylabel(r'$X_{t}$')
+        plt.xlabel('t')
+        plt.ylabel(r'$X_{t}$')
 
         plt.xlim([0, 1])
         plt.show()
