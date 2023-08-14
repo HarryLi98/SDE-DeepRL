@@ -1,2 +1,2 @@
-model_checkpoint_path: "bistablegraph_N22_NT500_nearestneighbour"
-all_model_checkpoint_paths: "bistablegraph_N22_NT500_nearestneighbour"
+model_checkpoint_path: "N=10,N_T=50"
+all_model_checkpoint_paths: "N=10,N_T=50"
