@@ -1,0 +1,1 @@
+{"rule":"POSSESSIVE_APOSTROPHE","sentence":"^\\QIn practice, we use the antithetic variates method to reduce the variance of our Monte Carlo estimator, as explained in \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
